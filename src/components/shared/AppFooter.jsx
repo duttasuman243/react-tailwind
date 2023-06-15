@@ -1,9 +1,9 @@
 import {
-	FiGithub,
-	FiTwitter,
+	// FiGithub,
+	// FiTwitter,
 	FiLinkedin,
-	FiGlobe,
-	FiYoutube,
+	FiGlobe,FiInstagram, FiDribbble,
+	// FiYoutube,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
@@ -11,27 +11,22 @@ const socialLinks = [
 	{
 		id: 1,
 		icon: <FiGlobe />,
-		url: 'https://www.stoman.me/',
+		url: '/',
 	},
 	{
 		id: 2,
-		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		icon: <FiInstagram />,
+		url: 'https://www.instagram.com/suman.uix/',
 	},
 	{
 		id: 3,
-		icon: <FiTwitter />,
-		url: 'https://twitter.com/realstoman',
+		icon: <FiDribbble />,
+		url: 'https://dribbble.com/Suman243',
 	},
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
-	},
-	{
-		id: 5,
-		icon: <FiYoutube />,
-		url: 'https://www.youtube.com/c/realstoman',
+		url: 'https://www.linkedin.com/in/suman-dutta-1125941b6/',
 	},
 ];
 
