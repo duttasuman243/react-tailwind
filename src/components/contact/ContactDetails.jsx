@@ -38,6 +38,7 @@ const ContactDetails = () => {
 					))}
 				</ul>
 			</div>
+			<iframe title='map' src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2605.0794244672475!2d88.30399376976989!3d22.573916971471583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDM0JzI3LjYiTiA4OMKwMTgnMTQuOSJF!5e0!3m2!1sen!2sin!4v1687025924939!5m2!1sen!2sin" width="100%" height="450" style={{border:0,marginLeft:20,marginTOp:20}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
 	);
 };
