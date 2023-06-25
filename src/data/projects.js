@@ -1,15 +1,15 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
+// import WebImage1 from '../images/web-project-1.jpg';
+import WebImage2 from '../images/LandingPage1+cover.png';
+// import MobileImage1 from '../images/mobile-project-1.jpg';
+import MobileImage2 from '../images/loginpage2+cover.png';
+import UIImage1 from '../images/luggage4cover.png';
+import UIImage2 from '../images/medicongrp1+cover.png';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'E-commerce Landing Page',
 		category: 'Web Application',
 		img: WebImage2,
 		ProjectHeader: {
@@ -20,32 +20,20 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'Login Pages',
 		category: 'Mobile Application',
 		img: MobileImage2,
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
+		title: 'Luggage E-commerce Website',
 		category: 'UI/UX Design',
 		img: UIImage1,
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
+		title: 'Medicon Group Website',
 		category: 'UI/UX Design',
 		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
 	},
 ];
